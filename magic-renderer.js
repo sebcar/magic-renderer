@@ -1,4 +1,3 @@
-
 const magicRenderer = (prefix) => {
     const runAfterResponse = (prefix, $el) => {
         if (!$el.hasAttribute(`${prefix}-after`)) {
